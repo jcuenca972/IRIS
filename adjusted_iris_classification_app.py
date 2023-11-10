@@ -2,6 +2,7 @@ import streamlit as st
 from joblib import load
 import numpy as np
 import pandas as pd
+import sklearn
 
 species = ['setosa', 'versicolor', 'virginica']
 image = ['setosa.jpg', 'versicolor.jpg', 'virginica.jpg']
